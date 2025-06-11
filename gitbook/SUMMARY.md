@@ -1,4 +1,18 @@
 # Table of contents
 
-* [Overview](README.md)
-* [Introduction](introduction.md)
+## Overview
+
+* [Introduction](README.md)
+
+***
+
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: true
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: test
+  ```
